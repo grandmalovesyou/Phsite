@@ -1,0 +1,122 @@
+.headbox {
+  height: 670px;
+  display: flex;
+  justify-content: center;
+  background-image: url("../img/bgk-header.png");
+  }
+  .headbox img {
+    max-height: 10%;
+    margin: 15px 3px 0px 3px;
+  }
+
+  .headbox p {
+    font-size: 36px;
+    font-weight: 100;
+    margin: 2% 10% 1% 0.5%;
+    color: #00e0d0;
+    letter-spacing: 1px;
+  }
+
+  .headtext ul{
+    list-style-type: none;
+    margin: o auto;
+    padding: 2px 20px;
+  }
+
+  .headbox li{
+    float: left;
+    padding: 2px 10px;
+  }
+  
+  .headtext h5 {
+    font-size: 13px;
+    color: #FFFFFF;
+    font-weight: 1000;
+    font-family: "Roboto";
+  }
+
+  .headtext .color {
+    color: #00e0d0;
+    font-size: 13px;
+    font-family: "Roboto";
+  }
+  section {
+    text-align: center;
+  }
+  section h1 {
+    font-size: 32px;
+  }
+  section hr {
+    text-align : center;
+    width: 4%;
+  }
+  section pre {
+    font-size: 12px;
+    position: relative;
+  }
+    
+  .our-story-container {
+    display: flex;
+    justify-content: flex-end ;
+    width: 80%;
+    height: 400px;
+    margin: 0 0 0 375px;
+  }
+  
+  .our-story-container img {
+    max-width: 220px;
+    object-fit: contain;
+  }
+  
+  .content-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 4em;
+  }
+  
+  .content-container h1 {
+    font-size: 26px;
+    font-weight: bold;
+    padding-bottom: 1rem;
+  }
+  
+  .content-container p {
+    padding-bottom: 1rem;
+    
+    width: 60%;
+  }
+  
+  .content-container button {
+    
+    width: 15%;
+  }
+  
+   /*Media queries 
+  
+  @media all and (max-width: 600px) {
+    .our-story-container {
+      flex-direction: column;
+    }
+    .our-story-container img {
+      margin: 0 auto;
+      padding-right: 0em;
+      padding-bottom: 1em;
+    }
+    .content-container h1 {
+      text-align: center;
+    }
+    .content-container button {
+      margin: 0 auto;
+      width: 50%;
+    }
+  }*/
+
+.our-story-container img {
+  border: 1px solid red;
+}
+.content-container {
+  border: 1px solid red;
+}
+section {
+  border: 1px solid red;
+}
